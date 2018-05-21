@@ -28,9 +28,13 @@ Add ``settings.py``
 
 SALTSTACK = {
     'URL': 'http://salt_server_ip:port',
+
     'USERNAME': 'username',
+
     'PASSWORD': 'password',
+
     'EAUTH': 'pam'
+
 }
 
 
